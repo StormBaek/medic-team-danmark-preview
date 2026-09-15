@@ -21,6 +21,6 @@
       status.textContent = "Tak – dit mailprogram åbner nu med din henvendelse klar til afsendelse.";
     }
 
-    window.location.href = `mailto:kontakt@medicteamdanmark.dk?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:post@medicteam.dk?subject=${subject}&body=${body}`;
   });
 })();
