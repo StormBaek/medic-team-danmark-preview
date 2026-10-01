@@ -1,4 +1,8 @@
 (() => {
+  document.querySelectorAll(".mobile-menu a").forEach((link) => {
+    link.addEventListener("click", () => link.closest("details")?.removeAttribute("open"));
+  });
+
   const form = document.querySelector("[data-contact-form]");
   if (!(form instanceof HTMLFormElement)) return;
 
